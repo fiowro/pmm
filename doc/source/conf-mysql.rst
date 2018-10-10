@@ -458,14 +458,14 @@ two metric series, with a set of labels. Labels can also store a value. You can
 filter against labels.
 
 Browsing metrics series using Advanced Data Exploration Dashboard
-********************************************************************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Lets look at the output so we understand the goal - take data from a |mysql|
 table and store in |pmm|, then display as a metric series. Using the Advanced
 Data Exploration Dashboard you can review your metric series. 
 
 MySQL table
-********************************************************************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Lets assume you have the following users table that includes true/false, string,
 and integer types.
@@ -484,7 +484,7 @@ and integer types.
    +----+------+--------------+-----------+------------+-----------+---------------------+--------+---------+-----------+
 
 Explaining the YAML syntax
-********************************************************************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 We'll go through a simple example and mention what's required for each line. The
 metric series is constructed based on the first line and appends the column name
@@ -502,7 +502,7 @@ series will be called ``app1_users_metrics_downvotes``:
            description: "Number of upvotes"            ## Helpful description of the column.
 
 Full queries-mysqld.yml example
-********************************************************************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Each column in the ``SELECT`` is named in this example, but that isn't required,
 you can use a ``SELECT *`` as well. Notice the format of schema.table for the
