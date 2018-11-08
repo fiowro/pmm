@@ -76,7 +76,7 @@ version of |mysql|:
 
 .. _pmm.conf-mysql.user-account.creating:
 
-:ref:`Creating a MySQL User Account to Be Used with PMM <pmm.conf-mysql.user-account.creating>`
+`Creating a MySQL User Account to Be Used with PMM <pmm.conf-mysql.user-account.creating>`_
 ===============================================================================================
 
 When adding a |mysql| instance to monitoring, you can specify the |mysql| server
