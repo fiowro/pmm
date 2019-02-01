@@ -58,16 +58,6 @@ Metrics Monitor Dashboards
 
     Metrics Monitor Dashboards <index.metrics-monitor.dashboard>
 
-Configuring Services for Best Results
-================================================================================
-
-.. toctree::
-   :maxdepth: 1
-
-   Configuring MySQL for Best Results <conf-mysql>
-   Configuring MongoDB for Monitoring in PMM Query Analytics <conf-mongodb>
-   tool
-
 Installing PMM Client
 ================================================================================
 
@@ -114,6 +104,7 @@ MySQL
    Adding MySQL query analytics service <manage/client.mysql.queries>
    Adding MySQL metrics service <manage/client.mysql.metrics>
    Adding a MySQL or PostgreSQL Remote DB instance to PMM <manage/remote-instance>
+   Configuring MySQL for Best Results <conf-mysql>
 
 
 MongoDB
@@ -124,7 +115,8 @@ MongoDB
 
    Adding MongoDB query analytics service <manage/client.mongodb.queries>
    Adding MongoDB metrics service <manage/client.mongodb.metrics>
-  
+   Configuring MongoDB for Monitoring in PMM Query Analytics <conf-mongodb>
+
 
 ProxySQL
 --------------------------------------------------------------------------------
@@ -132,22 +124,22 @@ ProxySQL
 .. toctree::
    :maxdepth: 1
 
-   Adding ProxySQL metrics service <manage/client.proxysql.mertrics>
-	      
+   Adding ProxySQL metrics service <manage/client.proxysql.metrics>
+
 Linux
 --------------------------------------------------------------------------------
 
 .. toctree::
    :maxdepth: 1
 
-   Adding general system metrics service <manage/client.linux.mertrics>
+   Adding general system metrics service <manage/client.linux.metrics>
 
 PostgreSQL
 --------------------------------------------------------------------------------
 
 .. toctree::
    :maxdepth: 1
-	      
+      
    Configuring PostgreSQL for Monitoring <conf-postgres>
 
 Amazon Web Services AWS
