@@ -13,31 +13,158 @@ for maximum security and reliability.
 It provides thorough time-based analysis for MySQL and MongoDB servers
 to ensure that your data works as efficiently as possible.
 
-Basics
+PMM Concepts
 ================================================================================
 
 .. toctree::
    :maxdepth: 1
 
-   Architecture Overview <architecture>
-   Deployment Instructions <deploy/index>
+   Architecture Overview <concepts/architecture>
+   Security Features <concepts/security>
+   
+
+Installation and Configuration
+================================================================================
+
+Installing PMM Server
+--------------------------------------------------------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   docker <install/docker>
+   Virtual Appliance <install/virtual-appliance>
+   Amazon AWS Marketplace <install/ami>
+
+Configuring PMM Server
+-------------------------------------------------------------------------------
+
+.. toctree::
+   :maxdepth: 1
+	      
+   Docker Environment Variables
+   PMM GUI
+   PMM API
+
+PMM GUI
+-------------------------------------------------------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   Tools of PMM <tool>
+   PMM Query Analytics <qan>
+   Metrics Monitor <metrics-monitor>
+
+	      
+Metrics Monitor Dashboards
+================================================================================
+
+.. toctree::
+   :maxdepth: 1
+
+    Metrics Monitor Dashboards <index.metrics-monitor.dashboard>
+
+Configuring Services for Best Results
+================================================================================
+
+.. toctree::
+   :maxdepth: 1
+
+   Configuring MySQL for Best Results <conf-mysql>
+   Configuring MongoDB for Monitoring in PMM Query Analytics <conf-mongodb>
    tool
 
-Advanced
+Installing PMM Client
 ================================================================================
 
 .. toctree::
    :maxdepth: 1
 
-   pmm-admin
-   remote-instance
-   amazon-rds
-   Configuring MySQL for Best Results <conf-mysql>
-   conf-postgres
-   conf-mongodb
-   security
-   index.metrics-monitor.dashboard
+   Installing Clients <install/clients>
+   Connecting Clients to the Server  <install/clients.connecting>
 
+Configuring and Administrating PMM Client
+================================================================================
+
+.. toctree::
+   :maxdepth: 1
+
+   
+   Configuring PMM Client <manage/client.config> 
+   Getting information about PMM Client <manage/client.info>
+   Adding monitoring services <manage/client.add>
+   Listing monitoring services <manage/client.list>  
+   Removing monitoring services <manage/client.remove>
+   Removing orphaned services <manage/client.repair>
+   Restarting monitoring services <manage/client.restart>
+   Getting passwords used by PMM Client (to security features and/or administration) <manage/client.passwords>
+   Starting monitoring services <manage/client.start> 
+   Stopping monitoring services <manage/client.stop>
+   Cleaning Up Before Uninstall <manage/client.uninstall>
+   Purging metrics data <manage/client.purge>
+   
+Installing and Configuring Services
+================================================================================
+
+.. toctree::
+   :maxdepth: 1
+
+   Monitoring Service Aliases <manage/client.aliases>
+
+MySQL
+--------------------------------------------------------------------------------
+
+.. toctree::
+   :maxdepth: 1
+	      
+   Adding MySQL query analytics service <manage/client.mysql.queries>
+   Adding MySQL metrics service <manage/client.mysql.metrics>
+   Adding a MySQL or PostgreSQL Remote DB instance to PMM <manage/remote-instance>
+
+
+MongoDB
+--------------------------------------------------------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   Adding MongoDB query analytics service <manage/client.mongodb.queries>
+   Adding MongoDB metrics service <manage/client.mongodb.metrics>
+  
+
+ProxySQL
+--------------------------------------------------------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   Adding ProxySQL metrics service <manage/client.proxysql.mertrics>
+	      
+Linux
+--------------------------------------------------------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   Adding general system metrics service <manage/client.linux.mertrics>
+
+PostgreSQL
+--------------------------------------------------------------------------------
+
+.. toctree::
+   :maxdepth: 1
+	      
+   Configuring PostgreSQL for Monitoring <conf-postgres>
+
+Amazon Web Services AWS
+--------------------------------------------------------------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   Adding an Amazon RDS DB instance to PMM <manage/amazon-rds>
+   
 Reference
 ================================================================================
 
@@ -48,3 +175,5 @@ Reference
    Contact Us <contact>
    FAQ <faq>
    Glossaries <index.glossary>
+
+

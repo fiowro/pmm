@@ -14,13 +14,13 @@ This section contains a reference of dashboards available in |metrics-monitor|.
 .. toctree::
    :maxdepth: 1
 
-   dashboard.home
-   dashboard.pmm-system-summary
-   dashboard.advanced-data-exploration
-   dashboard.cross-server-graphs
-   dashboard.summary
-   dashboard.trends
-   dashboard.network-overview
+   dashboards/dashboard.home
+   dashboards/dashboard.pmm-system-summary
+   dashboards/dashboard.advanced-data-exploration
+   dashboards/dashboard.cross-server-graphs
+   dashboards/dashboard.summary
+   dashboards/dashboard.trends
+   dashboards/dashboard.network-overview
 
 .. _pmm.dashboard.os.list:
 
@@ -30,11 +30,11 @@ This section contains a reference of dashboards available in |metrics-monitor|.
 .. toctree::
    :maxdepth: 1
 
-   dashboard.cpu-utilization-details-cores
-   dashboard.disk-space
-   dashboard.system-overview
-   dashboard.compare-system-parameters
-   dashboard.overview-numa-metrics
+   dashboards/dashboard.cpu-utilization-details-cores
+   dashboards/dashboard.disk-space
+   dashboards/dashboard.system-overview
+   dashboards/dashboard.compare-system-parameters
+   dashboards/dashboard.overview-numa-metrics
 
 .. _pmm.dashboard.prometheus.list:
 
@@ -45,7 +45,7 @@ This section contains a reference of dashboards available in |metrics-monitor|.
    :glob:
    :maxdepth: 1
 
-   dashboard.prometheus*
+   dashboards/dashboard.prometheus*
 
 .. _pmm.dashboard.mysql.list:
 
@@ -56,7 +56,7 @@ This section contains a reference of dashboards available in |metrics-monitor|.
    :glob:
    :maxdepth: 1
 
-   dashboard.mysql-*
+   dashboards/dashboard.mysql-*
 
 .. _pmm.dashboard.mongodb.list:
 
@@ -67,7 +67,7 @@ This section contains a reference of dashboards available in |metrics-monitor|.
    :glob:
    :maxdepth: 1
 
-   dashboard.mongodb-*
+   dashboards/dashboard.mongodb-*
 
 .. _pmm.dashboard.postgres.list:
 
@@ -78,7 +78,7 @@ This section contains a reference of dashboards available in |metrics-monitor|.
    :glob:
    :maxdepth: 1
 
-   dashboard.postgres-*
+   dashboards/dashboard.postgres-*
 
 .. _pmm.dashboard.ha.list:
 
@@ -88,6 +88,6 @@ This section contains a reference of dashboards available in |metrics-monitor|.
 .. toctree::
    :maxdepth: 1
 
-   dashboard.pxc-galera-cluster-overview
+   dashboards/dashboard.pxc-galera-cluster-overview
 
 .. include:: .res/replace.txt
