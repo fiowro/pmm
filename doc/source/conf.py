@@ -23,13 +23,15 @@ import sys, os
 # If your documentation needs a minimal Sphinx version, state it here.
 #needs_sphinx = '1.0'
 
+sys.path.insert(0, os.path.abspath('.'))
+
 sys.path.append(os.path.abspath('ext'))
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 
 extensions = ['sphinx.ext.intersphinx', 'sphinx.ext.todo',
-              'sphinx.ext.coverage', 'sphinx.ext.ifconfig', 'sphinx.ext.extlinks', 'sphinx-prompt', 'psdom', ]
+              'sphinx.ext.coverage', 'sphinx.ext.ifconfig', 'sphinx.ext.extlinks', 'sphinx-prompt', 'psdom', 'hidden_code_block', ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

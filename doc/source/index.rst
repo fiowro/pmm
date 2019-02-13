@@ -2,17 +2,11 @@
 Percona Monitoring and Management Documentation
 ********************************************************************************
 
-.. container:: toggle
+.. hidden-code-block:: python
+    :starthidden: False
 
-    .. container:: header
-
-        **Show/Hide Code**
-
-    .. code-block:: xml
-       :linenos:
-
-       from plone import api
-       ...
+    a = 10
+    b = a + 5
 
 
 Percona Monitoring and Management (PMM) is an open-source platform
