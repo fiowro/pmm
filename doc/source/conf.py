@@ -162,10 +162,12 @@ extlinks = {'bug':
 
 
 # -- Options for HTML output ---------------------------------------------------
-
+def setup(app):
+  app.add_stylesheet( "custom.css" )
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 html_theme = 'percona-theme'
+
 html_add_permalinks = ""
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
