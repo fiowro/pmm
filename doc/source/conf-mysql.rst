@@ -280,7 +280,7 @@ For more information, run
 .. _pmm.conf-mysql.8-0:
 
 `Configuring MySQL 8.0 for PMM <conf-mysql.html#pmm-conf-mysql-8-0>`_
-========================================================================
+=========================================================================
 
 |mysql| 8 (in version 8.0.4) changes the way clients are authenticated by
 default. The |opt.default-authentication-plugin| parameter is set to
