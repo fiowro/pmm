@@ -30,7 +30,7 @@ restart the server or change variables dynamically using the following syntax:
 
    SET GLOBAL <var_name>=<var_value>
 
-The following sample configurations can be used depending on the variant and
+The following sample configurations can be used depending on the variant and 
 version of |mysql|:
 
 * If you are running |percona-server| (or |xtradb-cluster|), configure the
