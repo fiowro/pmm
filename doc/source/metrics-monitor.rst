@@ -20,7 +20,7 @@ graphs are separated into dashboards by themes: some are related to |mysql| or
 
 .. _pmm.metrics-monitor.signing-in:
 
-:ref:`Signing in <pmm.metrics-monitor.signing-in>`
+`Signing in <metrics-monitor.html#pmm-metrics-monitor-signing-in>`_
 ================================================================================
 
 The credentials used to sign in to |grafana| depend on the options that
@@ -57,8 +57,8 @@ dashboard:
 
 .. _pmm.metrics-monitor.dashboard.opening:
 
-:ref:`Opening a Dashboard <pmm.metrics-monitor.dashboard.opening>`
-================================================================================	   
+`Opening a Dashboard <metrics-monitor.html#pmm-metrics-monitor-dashboard-opening>`_
+====================================================================================
 
 The default |pmm| installation provides more than thirty dashboards. To make it
 easier to reach a specific dashboard, the system offers two tools. The
@@ -113,8 +113,8 @@ Insight        Summary, cross-server and |prometheus|
 
 .. _pmm.metrics-monitor.graph-description:
 
-:ref:`Viewing More Information about a Graph <pmm.metrics-monitor.graph-description>`
-=====================================================================================
+`Viewing More Information about a Graph <metrics-monitor.html#pmm-metrics-monitor-graph-description>`_
+=======================================================================================================
 
 Each graph has a descriptions to display more information about the monitored
 data without cluttering the interface.
@@ -131,8 +131,8 @@ button the description disappears.
 
 .. _pmm.metrics-monitor.metric.zooming-in:
 
-:ref:`Zooming in on a single metric <pmm.metrics-monitor.metric.zooming-in>`
-================================================================================
+`Zooming in on a single metric <metrics-monitor.html#pmm-metrics-monitor-metric-zooming-in>`_
+==============================================================================================
      
 On dashboards with multiple metrics, it is hard to see how the value of a single
 metric changes over time. Use the context menu to zoom in on the selected metric
@@ -172,8 +172,8 @@ To return to the dashboard, click the |gui.back-to-dashboard| button next to the
 
 .. _pmm.metrics-monitor.annotation.application-event.marking:
 
-:ref:`Marking Important Events with Annotations <pmm.metrics-monitor.annotation.application-event.marking>`
-===========================================================================================================
+`Marking Important Events with Annotations <metrics-monitor.html#pmm-metrics-monitor-annotation-application-event-marking>`_
+=============================================================================================================================
 
 Some events in your application may impact your database. Annotations
 visualize these events on each dashboard of |pmm-server|.
@@ -207,8 +207,8 @@ You may toggle displaying annotations on metric graphs by using the
    
 .. _pmm.metrics-monitor.dashboard.snapshot.creating:
 
-:ref:`Creating Snapshots of a Dashboard <pmm.metrics-monitor.dashboard.snapshot.creating>`
-==========================================================================================
+`Creating Snapshots of a Dashboard <metrics-monitor.html#pmm-metrics-monitor-dashboard-snapshot-creating>`_
+============================================================================================================
 
 A snapshot is a way to securely share your dashboard with |percona|. When
 created, we strip sensitive data like queries (metrics, template variables, and
